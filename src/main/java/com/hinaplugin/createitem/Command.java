@@ -126,11 +126,10 @@ public class Command implements CommandExecutor {
                     default -> player.sendMessage("サブコマンドはitem1, item2, item3のみです．");
                 }
             }
-            return true;
         }else {
             //送信者がコマンドブロックかコンソールだったら返信
             commandSender.sendMessage("このコマンドはプレイヤーのみ実行できます．");
-            return true;
         }
+        return true;
     }
 }

@@ -1,0 +1,14 @@
+name: CreateItem
+version: '${project.version}'
+main: com.hinaplugin.createitem.CreateItem
+api-version: '1.20'
+authors: [hina2113]
+description: ここは説明文
+
+commands:
+  create:
+    permission: create.command
+
+permissions:
+  create.command:
+    default: true

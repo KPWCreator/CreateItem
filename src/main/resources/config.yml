@@ -1,0 +1,7 @@
+display: 伝説の金属
+lore:
+  1: 薄く光を放っている
+  2: どこかにいる鍛冶師のみ精錬できるようだ・・・
+enchantments:
+  - luck-1
+  - silk_touch-1
